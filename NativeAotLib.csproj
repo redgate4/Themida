@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <PublishAot>true</PublishAot>
+        <SelfContained>true</SelfContained>
+        <IlcDisableReflection>true</IlcDisableReflection>
+        <IlcTrimMetadata>true</IlcTrimMetadata>
+        <IlcGenerateStackTraceData>false</IlcGenerateStackTraceData>
+        <TrimmerRemoveSymbols>true</TrimmerRemoveSymbols>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="SecureEngineSDK64.dll" />
+      <Content Include="SecureEngineSDK64.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="password.txt" />
+      <Content Include="password.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <LinkerArg Include="/MAP:$(PublishDir)$(TargetName).map"/>
+    </ItemGroup>
+
+</Project>
