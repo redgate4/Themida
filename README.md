@@ -1,10 +1,6 @@
 <p align= "center">
-  <img src="https://img.shields.io/github/languages/top/redgate4/Themida?color=black">
-   <img src="https://img.shields.io/github/stars/redgate4/Themida?style=flat&color=black">
-   <br>
    <img src="https://img.shields.io/github/last-commit/redgate4/Themida?color=black">
    <img src="https://img.shields.io/github/license/redgate4/Themida.svg?color=black">
-   <br>
 </p>
 
 
