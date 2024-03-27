@@ -3,7 +3,6 @@
    <img src="https://img.shields.io/github/license/redgate4/Themida.svg?color=black">
 </p>
 
-
 <p align="center">
 <img src="https://github.com/redgate4/Themida/assets/164580889/7866ae80-1e3d-4a11-9e9d-4a7bd97d2d9b", width="800", height="700">
 </p>
